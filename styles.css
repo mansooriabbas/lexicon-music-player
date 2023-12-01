@@ -81,10 +81,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 50px;
+  justify-content: center;
 }
 .song-info-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.progress-bar-container {
+  background-color: plum;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 200px;
+  height: 5px;
+  background-color: aqua;
+
+  border-radius: 20px;
+}
+.progress {
+  width: 30%;
+  height: 100%;
+  background-color: cadetblue;
 }
