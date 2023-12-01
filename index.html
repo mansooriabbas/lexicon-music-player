@@ -9,24 +9,27 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <main>
       <div class="container">
         <header class="header-bar">
           <span class="material-icons"> arrow_back_ios </span>
-          <header class="playlist">WU-TANG FOREVER</header>
+          <header class="playlist"><h3>LIQUID SWORDS</h3></header>
           <span class="material-icons"> more_vert </span>
         </header>
         <section class="container-divider">
           <section class="left">
-            <div class="song">
+            <div id="playing" class="song">
               <img src="img/Liquidswords1995.png" alt="" class="album-image" />
               <div class="title-container">
                 <div class="album">LIQUID SWORDS</div>
                 <div class="title">Shadowboxin</div>
               </div>
-              <span class="material-icons"> play_circle </span>
+              <span id="played" class="material-icons"> play_circle </span>
             </div>
             <div class="song">
               <img src="img/wu36.jpg" alt="" class="album-image" />
@@ -64,7 +67,7 @@
               <img src="img/album.jpg" alt="" class="album-image" />
               <div class="title-container">
                 <div class="album">WU-TANG FOREVER</div>
-                <div class="title">As High As Wu-Tang Get</div>
+                <div class="title">It's Yourz</div>
               </div>
               <span class="material-icons"> play_circle </span>
             </div>
@@ -89,7 +92,13 @@
               </section>
               3:42
             </section>
-            <img src="img/buttons.png" alt="" />
+            <section class="buttons-container">
+              <span id="repeat" class="material-icons"> repeat </span>
+              <span id="ff" class="material-icons"> fast_rewind </span>
+              <span id="play" class="material-icons"> play_circle </span>
+              <span id="fr" class="material-icons"> fast_forward </span>
+              <span id="shuffle" class="material-icons"> shuffle </span>
+            </section>
           </section>
         </section>
       </div>
